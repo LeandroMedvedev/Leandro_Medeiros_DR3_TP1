@@ -16,6 +16,7 @@ const colors = {
   darkRed: '#ac1015',
   ciano: '#0f4d5f',
   skyBlue: '#61dafb',
+  darkBlue: '#00008b',
   shuttleGrey: '#5f6368',
   ebony: '#282c34',
   midnightBlue: '#181a1f',
@@ -30,6 +31,7 @@ const globalStyles = StyleSheet.create({
     backgroundColor: colors.ebony,
     alignItems: 'center',
     justifyContent: 'center',
+    gap: 15,
   },
   text: {
     color: colors.white,

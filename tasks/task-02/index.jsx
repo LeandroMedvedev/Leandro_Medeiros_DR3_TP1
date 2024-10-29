@@ -1,4 +1,5 @@
 import { StyleSheet, Text, View } from 'react-native';
+
 import { colors, globalStyles } from '../../styles/globalStyles';
 
 export default function Task02() {
