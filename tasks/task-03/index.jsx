@@ -41,7 +41,6 @@ const styles = StyleSheet.create({
   },
   buttons: {
     marginTop: 15,
-    display: 'flex',
     gap: 15,
   },
 });
