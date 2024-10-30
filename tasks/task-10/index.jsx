@@ -14,9 +14,9 @@ export default function Task10() {
     if (isNaN(parsedNumber)) {
       setResult('Valor inválido. Por favor, digite um número.');
     } else if (isPrime(parsedNumber)) {
-      setResult(`${number} é PRIMO`);
+      setResult('PRIMO');
     } else {
-      setResult(`${number} é COMPOSTO`);
+      setResult('COMPOSTO');
     }
 
     setNumber('');
