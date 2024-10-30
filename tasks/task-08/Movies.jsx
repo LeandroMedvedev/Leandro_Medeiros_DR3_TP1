@@ -1,7 +1,7 @@
 import { SafeAreaView } from 'react-native-safe-area-context';
-
-import Card from './Card';
 import { StyleSheet } from 'react-native';
+
+import Card from './Card.jsx';
 import { colors } from '../../styles/globalStyles';
 
 export default function Movies({ movies }) {
