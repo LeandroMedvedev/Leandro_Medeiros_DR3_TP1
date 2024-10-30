@@ -47,6 +47,7 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     textAlign: 'center',
     fontSize: 30,
+    fontWeight: 700,
     lineHeight: 60,
     backgroundColor: colors.lavenderBlush,
     color: colors.githubGraffiti,

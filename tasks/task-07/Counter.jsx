@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { StyleSheet, Text, TouchableHighlight } from 'react-native';
+import { StyleSheet, Text, Pressable } from 'react-native';
 import { View } from 'react-native';
 import { colors, globalStyles } from '../../styles/globalStyles';
 
@@ -14,12 +14,12 @@ export default function Counter() {
       <Text style={styles.title}>Contador</Text>
       <Text style={styles.text}>{count}</Text>
       <View style={styles.signalsContainer}>
-        <TouchableHighlight style={styles.touch} onPress={decrement}>
+        <Pressable style={styles.touch} onPress={decrement}>
           <Text style={styles.signal}>-</Text>
-        </TouchableHighlight>
-        <TouchableHighlight style={styles.touch} onPress={increment}>
+        </Pressable>
+        <Pressable style={styles.touch} onPress={increment}>
           <Text style={styles.signal}>+</Text>
-        </TouchableHighlight>
+        </Pressable>
       </View>
     </View>
   );
