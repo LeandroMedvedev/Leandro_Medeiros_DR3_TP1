@@ -2,14 +2,14 @@ import { useState } from 'react';
 import { Button, Image, StyleSheet, Text, View } from 'react-native';
 
 import { colors, globalStyles } from '../../styles/globalStyles';
-import { images } from '../../constants';
+import { IMAGES } from '../../constants';
 
 export default function Task04() {
-  const [currentImage, setCurrentImage] = useState(images[0]);
+  const [currentImage, setCurrentImage] = useState(IMAGES[0]);
 
   function changeImage() {
-    const randomIndex = Math.floor(Math.random() * images.length);
-    setCurrentImage(images[randomIndex]);
+    const randomIndex = Math.floor(Math.random() * IMAGES.length);
+    setCurrentImage(IMAGES[randomIndex]);
   }
 
   return (

@@ -1,17 +1,12 @@
-import { StyleSheet, Text, View } from 'react-native';
-import { colors, globalStyles } from '../../styles/globalStyles';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+
+import { MOVIES } from '../../constants';
+import Movies from './Movies';
 
 export default function Task08() {
   return (
-    <View style={globalStyles.container}>
-      <Text style={styles.text}>Tarefa 08</Text>
-    </View>
+    <SafeAreaProvider>
+      <Movies movies={MOVIES} />
+    </SafeAreaProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  text: {
-    fontSize: 28,
-    color: colors.white,
-  },
-});
