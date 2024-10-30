@@ -1,17 +1,11 @@
-import { StyleSheet, Text, View } from 'react-native';
-import { colors, globalStyles } from '../../styles/globalStyles';
+import { View } from 'react-native';
+import { globalStyles } from '../../styles/globalStyles';
+import Counter from './Counter';
 
 export default function Task06() {
   return (
     <View style={globalStyles.container}>
-      <Text style={styles.text}>Tarefa 06</Text>
+      <Counter />
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  text: {
-    fontSize: 28,
-    color: colors.white,
-  },
-});
