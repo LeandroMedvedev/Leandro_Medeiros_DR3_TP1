@@ -9,3 +9,15 @@ export const isPrime = (num) => {
 
   return true;
 };
+
+export const isPalindrome = (str) => {
+  const normalizedStr = str.replace(/\s+/g, '').toLowerCase();
+  const reversedStr = normalizedStr.split('').reverse().join('');
+
+  return normalizedStr === reversedStr;
+};
+
+export const containsSpecialCharacters = (input) => {
+  const pattern = /[^a-zA-Z0-9\s+]/;
+  return pattern.test(input);
+};
