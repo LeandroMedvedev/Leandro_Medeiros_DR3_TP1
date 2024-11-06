@@ -45,7 +45,7 @@ const tasks = [
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: colors.shuttleGrey,
+    backgroundColor: colors.githubGraffiti,
     alignItems: 'center',
     justifyContent: 'center',
     padding: 20,
@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: 'bold',
     marginBottom: 10,
-    color: colors.blackRussian,
+    color: colors.white,
   },
   list: {
     width: '100%',
@@ -66,14 +66,15 @@ const styles = StyleSheet.create({
   item: {
     maxWidth: 300,
     padding: 10,
-    backgroundColor: colors.blackRussian,
+    backgroundColor: colors.white,
     borderRadius: 5,
     marginBottom: 10,
     width: '48%',
   },
   link: {
     fontSize: 16,
-    color: colors.white,
+    fontWeight: 700,
+    color: colors.blackRussian,
     textAlign: 'center',
   },
 });
