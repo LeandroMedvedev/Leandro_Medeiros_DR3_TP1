@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
     fontWeight: 700,
     lineHeight: 60,
     backgroundColor: colors.lavenderBlush,
-    color: colors.githubGraffiti,
+    color: colors.graphite,
   },
   touch: {
     width: '48%',

@@ -20,7 +20,7 @@ const colors = {
   shuttleGrey: '#5f6368',
   ebony: '#282c34',
   midnightBlue: '#181a1f',
-  githubGraffiti: '#151b23',
+  graphite: '#151b23',
   blackRussian: '#03031b',
   githubGreen: '#3b8640',
 };

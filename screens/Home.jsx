@@ -45,7 +45,7 @@ const tasks = [
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: colors.githubGraffiti,
+    backgroundColor: colors.graphite,
     alignItems: 'center',
     justifyContent: 'center',
     padding: 20,

@@ -34,9 +34,9 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 18,
-    color: colors.githubGraffiti,
+    color: colors.graphite,
   },
   text: {
-    color: colors.githubGraffiti,
+    color: colors.graphite,
   },
 });

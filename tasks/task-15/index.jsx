@@ -32,7 +32,7 @@ export default function Task15() {
       {isQuizFinished ? (
         <View style={styles.scoreContainer}>
           <Text style={styles.scoreText}>
-            Pontuação Final: {score}/{QUESTIONS.length}
+            Pontuação: {score}/{QUESTIONS.length}
           </Text>
           <TouchableOpacity style={styles.button} onPress={restartQuiz}>
             <Text style={styles.buttonText}>Reiniciar Quiz</Text>
